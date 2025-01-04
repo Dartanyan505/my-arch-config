@@ -17,8 +17,16 @@ I was tired of losing all of my configs every time I break my OS.
 
 This code can be copy-pasted into the terminal to install all the packages: <br>
 
-```
+``` 
 sudo pacman -S sof-firmware brightnessctl blueman pavucontrol grub-customizer
 ```
 
 ## GRUB Customization
+I really like [patato's grub theme](https://github.com/Patato777/dotfiles/tree/main/grub)!
+![image](https://github.com/user-attachments/assets/5011aef3-8219-47d0-8c3d-4acd9154c6e6)
+
+
+If you get the error `` Gtk-WARNING **: 20:26:54.736: cannot open display: :0 ``, install xorg-xhost package and run the command bellow.
+```
+xhost si:localuser:root
+ ```
