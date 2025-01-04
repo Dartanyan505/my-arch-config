@@ -22,11 +22,14 @@ sudo pacman -S sof-firmware brightnessctl blueman pavucontrol grub-customizer
 ```
 
 ## GRUB Customization
-I really like [patato's grub theme](https://github.com/Patato777/dotfiles/tree/main/grub)!
+I really like [patato's grub theme](https://github.com/Patato777/dotfiles/tree/main/grub)! 🎮
 ![image](https://github.com/user-attachments/assets/5011aef3-8219-47d0-8c3d-4acd9154c6e6)
 
 
-If you get the error `` Gtk-WARNING **: 20:26:54.736: cannot open display: :0 ``, install xorg-xhost package and run the command bellow.
+If you get the error ⁉`` Gtk-WARNING **: 20:26:54.736: cannot open display: :0 `` when trying to run GRUB customizer, install xorg-xhost package and run the command bellow.
 ```
 xhost si:localuser:root
- ```
+```
+This should fix it. 🔧
+
+Copy the arcade folder inside the themes folder of GRUB customizer and set the theme.
