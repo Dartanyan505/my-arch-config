@@ -9,11 +9,13 @@ I was tired of losing all of my configs every time I break my OS.
 + **Grub**   -  [patato's grub theme](https://github.com/Patato777/dotfiles/tree/main/grub)
 
 ## Packages to Install
++ **neofetch**            -  Without neofetch, linux is not linux.
 + **sof-firmware**        -  I don't exacly know why but without this package sound devices doesn't get detected.
 + **brightnessctl 🌞**    -  This one helps manage laptop's screen brigtness.
 + **blueman 🔷**          -  GUI to manage bluetooth.
 + **pavucontrol 🔊**      -  GUI to manage sound settings.
-+ **grub-customizer**     -  To use customize GRUB
++ **grub-customizer**     -  To use customize GRUB.
++ **xorg-xhost**          -  This will fix grub-customizer gui problem.
 
 This code can be copy-pasted into the terminal to install all the packages: <br>
 
