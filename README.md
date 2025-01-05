@@ -1,12 +1,16 @@
-# My Hayprland Config
+# My Arch Config
 
-![image](https://github.com/user-attachments/assets/d82795c9-ce33-4d07-a05e-d0df9f5f8aad)
+![image](https://github.com/user-attachments/assets/2023e64a-239a-4966-b2c9-a76aeb153170)
 
 I was tired of losing all of my configs every time I break my OS.
 
+First things first, I install arch using [arch install](https://wiki.archlinux.org/title/Archinstall), so most of the packages are installed automatically. We will remove some of them and install others.
+
 ## Features of config
-+ **OS**     -  arch
++ **OS**     -  Arch
++ **WM**     -  Hyprland
 + **Grub**   -  [patato's grub theme](https://github.com/Patato777/dotfiles/tree/main/grub)
++ **File Manager**   -  Thunar
 
 ## Packages to Install
 + **neofetch**            -  Without neofetch, linux is not linux.
@@ -17,10 +21,15 @@ I was tired of losing all of my configs every time I break my OS.
 + **grub-customizer**     -  To use customize GRUB.
 + **xorg-xhost**          -  This will fix grub-customizer gui problem.
 
-This code can be copy-pasted into the terminal to install all the packages: <br>
+This command can be copy-pasted into the terminal to install all the packages: <br>
 
 ``` 
-sudo pacman -S sof-firmware brightnessctl blueman pavucontrol grub-customizer
+sudo pacman -S sof-firmware brightnessctl blueman pavucontrol grub-customizer thunar
+```
+
+Also use this command to uninstall unnecessary packages.
+``` 
+sudo pacman -Rs dolphin
 ```
 
 ## GRUB Customization
