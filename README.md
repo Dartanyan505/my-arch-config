@@ -20,11 +20,12 @@ First things first, I install arch using [arch install](https://wiki.archlinux.o
 + **pavucontrol 🔊**      -  GUI to manage sound settings.
 + **grub-customizer**     -  To use customize GRUB.
 + **xorg-xhost**          -  This will fix grub-customizer gui problem.
++ **plymounth**           -  To create a graphical boot process.
 
 This command can be copy-pasted into the terminal to install all the packages: <br>
 
 ``` 
-sudo pacman -S sof-firmware brightnessctl blueman pavucontrol grub-customizer thunar
+sudo pacman -S sof-firmware brightnessctl blueman pavucontrol grub-customizer thunar plymounth
 ```
 
 Also use this command to uninstall unnecessary packages.
@@ -44,3 +45,5 @@ xhost si:localuser:root
 This should fix it. 🔧
 
 Replace the themes folder of GRUB customizer and set the theme.
+
+## Boot Customization
